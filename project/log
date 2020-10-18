@@ -1,0 +1,547 @@
+gcc -I./ -c main.c
+In file included from main.c:9:0:
+main.c: In function ‘func_haizei_add’:
+./haizei/test.h:39:1: error: expected specifier-qualifier-list before ‘)’ token
+ )
+ ^
+./haizei/test.h:43:31: note: in expansion of macro ‘TYPE’
+     sprintf(frm, color("%s"), TYPE(a));\
+                               ^~~~
+./haizei/test.h:56:9: note: in expansion of macro ‘P’
+         P(_a, YELLOW_HL);\
+         ^
+./haizei/test.h:65:25: note: in expansion of macro ‘EXPECT’
+ #define EXPECT_EQ(a, b) EXPECT(a, b, ==)
+                         ^~~~~~
+main.c:16:5: note: in expansion of macro ‘EXPECT_EQ’
+     EXPECT_EQ(add(3,4), 7);
+     ^~~~~~~~~
+./haizei/test.h:39:1: error: expected specifier-qualifier-list before ‘)’ token
+ )
+ ^
+./haizei/test.h:43:31: note: in expansion of macro ‘TYPE’
+     sprintf(frm, color("%s"), TYPE(a));\
+                               ^~~~
+./haizei/test.h:57:9: note: in expansion of macro ‘P’
+         P(" vs ", YELLOW_HL);\
+         ^
+./haizei/test.h:65:25: note: in expansion of macro ‘EXPECT’
+ #define EXPECT_EQ(a, b) EXPECT(a, b, ==)
+                         ^~~~~~
+main.c:16:5: note: in expansion of macro ‘EXPECT_EQ’
+     EXPECT_EQ(add(3,4), 7);
+     ^~~~~~~~~
+./haizei/test.h:39:1: error: expected specifier-qualifier-list before ‘)’ token
+ )
+ ^
+./haizei/test.h:43:31: note: in expansion of macro ‘TYPE’
+     sprintf(frm, color("%s"), TYPE(a));\
+                               ^~~~
+./haizei/test.h:58:9: note: in expansion of macro ‘P’
+         P(_b, YELLOW_HL);\
+         ^
+./haizei/test.h:65:25: note: in expansion of macro ‘EXPECT’
+ #define EXPECT_EQ(a, b) EXPECT(a, b, ==)
+                         ^~~~~~
+main.c:16:5: note: in expansion of macro ‘EXPECT_EQ’
+     EXPECT_EQ(add(3,4), 7);
+     ^~~~~~~~~
+./haizei/test.h:39:1: error: expected specifier-qualifier-list before ‘)’ token
+ )
+ ^
+./haizei/test.h:43:31: note: in expansion of macro ‘TYPE’
+     sprintf(frm, color("%s"), TYPE(a));\
+                               ^~~~
+./haizei/test.h:56:9: note: in expansion of macro ‘P’
+         P(_a, YELLOW_HL);\
+         ^
+./haizei/test.h:65:25: note: in expansion of macro ‘EXPECT’
+ #define EXPECT_EQ(a, b) EXPECT(a, b, ==)
+                         ^~~~~~
+main.c:17:5: note: in expansion of macro ‘EXPECT_EQ’
+     EXPECT_EQ(add(3,2), 5);
+     ^~~~~~~~~
+./haizei/test.h:39:1: error: expected specifier-qualifier-list before ‘)’ token
+ )
+ ^
+./haizei/test.h:43:31: note: in expansion of macro ‘TYPE’
+     sprintf(frm, color("%s"), TYPE(a));\
+                               ^~~~
+./haizei/test.h:57:9: note: in expansion of macro ‘P’
+         P(" vs ", YELLOW_HL);\
+         ^
+./haizei/test.h:65:25: note: in expansion of macro ‘EXPECT’
+ #define EXPECT_EQ(a, b) EXPECT(a, b, ==)
+                         ^~~~~~
+main.c:17:5: note: in expansion of macro ‘EXPECT_EQ’
+     EXPECT_EQ(add(3,2), 5);
+     ^~~~~~~~~
+./haizei/test.h:39:1: error: expected specifier-qualifier-list before ‘)’ token
+ )
+ ^
+./haizei/test.h:43:31: note: in expansion of macro ‘TYPE’
+     sprintf(frm, color("%s"), TYPE(a));\
+                               ^~~~
+./haizei/test.h:58:9: note: in expansion of macro ‘P’
+         P(_b, YELLOW_HL);\
+         ^
+./haizei/test.h:65:25: note: in expansion of macro ‘EXPECT’
+ #define EXPECT_EQ(a, b) EXPECT(a, b, ==)
+                         ^~~~~~
+main.c:17:5: note: in expansion of macro ‘EXPECT_EQ’
+     EXPECT_EQ(add(3,2), 5);
+     ^~~~~~~~~
+./haizei/test.h:39:1: error: expected specifier-qualifier-list before ‘)’ token
+ )
+ ^
+./haizei/test.h:43:31: note: in expansion of macro ‘TYPE’
+     sprintf(frm, color("%s"), TYPE(a));\
+                               ^~~~
+./haizei/test.h:56:9: note: in expansion of macro ‘P’
+         P(_a, YELLOW_HL);\
+         ^
+./haizei/test.h:65:25: note: in expansion of macro ‘EXPECT’
+ #define EXPECT_EQ(a, b) EXPECT(a, b, ==)
+                         ^~~~~~
+main.c:18:5: note: in expansion of macro ‘EXPECT_EQ’
+     EXPECT_EQ(add(5,6), 11);
+     ^~~~~~~~~
+./haizei/test.h:39:1: error: expected specifier-qualifier-list before ‘)’ token
+ )
+ ^
+./haizei/test.h:43:31: note: in expansion of macro ‘TYPE’
+     sprintf(frm, color("%s"), TYPE(a));\
+                               ^~~~
+./haizei/test.h:57:9: note: in expansion of macro ‘P’
+         P(" vs ", YELLOW_HL);\
+         ^
+./haizei/test.h:65:25: note: in expansion of macro ‘EXPECT’
+ #define EXPECT_EQ(a, b) EXPECT(a, b, ==)
+                         ^~~~~~
+main.c:18:5: note: in expansion of macro ‘EXPECT_EQ’
+     EXPECT_EQ(add(5,6), 11);
+     ^~~~~~~~~
+./haizei/test.h:39:1: error: expected specifier-qualifier-list before ‘)’ token
+ )
+ ^
+./haizei/test.h:43:31: note: in expansion of macro ‘TYPE’
+     sprintf(frm, color("%s"), TYPE(a));\
+                               ^~~~
+./haizei/test.h:58:9: note: in expansion of macro ‘P’
+         P(_b, YELLOW_HL);\
+         ^
+./haizei/test.h:65:25: note: in expansion of macro ‘EXPECT’
+ #define EXPECT_EQ(a, b) EXPECT(a, b, ==)
+                         ^~~~~~
+main.c:18:5: note: in expansion of macro ‘EXPECT_EQ’
+     EXPECT_EQ(add(5,6), 11);
+     ^~~~~~~~~
+./haizei/test.h:39:1: error: expected specifier-qualifier-list before ‘)’ token
+ )
+ ^
+./haizei/test.h:43:31: note: in expansion of macro ‘TYPE’
+     sprintf(frm, color("%s"), TYPE(a));\
+                               ^~~~
+./haizei/test.h:56:9: note: in expansion of macro ‘P’
+         P(_a, YELLOW_HL);\
+         ^
+./haizei/test.h:65:25: note: in expansion of macro ‘EXPECT’
+ #define EXPECT_EQ(a, b) EXPECT(a, b, ==)
+                         ^~~~~~
+main.c:19:5: note: in expansion of macro ‘EXPECT_EQ’
+     EXPECT_EQ(add(5,5), 10);
+     ^~~~~~~~~
+./haizei/test.h:39:1: error: expected specifier-qualifier-list before ‘)’ token
+ )
+ ^
+./haizei/test.h:43:31: note: in expansion of macro ‘TYPE’
+     sprintf(frm, color("%s"), TYPE(a));\
+                               ^~~~
+./haizei/test.h:57:9: note: in expansion of macro ‘P’
+         P(" vs ", YELLOW_HL);\
+         ^
+./haizei/test.h:65:25: note: in expansion of macro ‘EXPECT’
+ #define EXPECT_EQ(a, b) EXPECT(a, b, ==)
+                         ^~~~~~
+main.c:19:5: note: in expansion of macro ‘EXPECT_EQ’
+     EXPECT_EQ(add(5,5), 10);
+     ^~~~~~~~~
+./haizei/test.h:39:1: error: expected specifier-qualifier-list before ‘)’ token
+ )
+ ^
+./haizei/test.h:43:31: note: in expansion of macro ‘TYPE’
+     sprintf(frm, color("%s"), TYPE(a));\
+                               ^~~~
+./haizei/test.h:58:9: note: in expansion of macro ‘P’
+         P(_b, YELLOW_HL);\
+         ^
+./haizei/test.h:65:25: note: in expansion of macro ‘EXPECT’
+ #define EXPECT_EQ(a, b) EXPECT(a, b, ==)
+                         ^~~~~~
+main.c:19:5: note: in expansion of macro ‘EXPECT_EQ’
+     EXPECT_EQ(add(5,5), 10);
+     ^~~~~~~~~
+main.c: In function ‘func_haizei_add2’:
+./haizei/test.h:39:1: error: expected specifier-qualifier-list before ‘)’ token
+ )
+ ^
+./haizei/test.h:43:31: note: in expansion of macro ‘TYPE’
+     sprintf(frm, color("%s"), TYPE(a));\
+                               ^~~~
+./haizei/test.h:56:9: note: in expansion of macro ‘P’
+         P(_a, YELLOW_HL);\
+         ^
+./haizei/test.h:65:25: note: in expansion of macro ‘EXPECT’
+ #define EXPECT_EQ(a, b) EXPECT(a, b, ==)
+                         ^~~~~~
+main.c:23:5: note: in expansion of macro ‘EXPECT_EQ’
+     EXPECT_EQ(add(5,6), 10);
+     ^~~~~~~~~
+./haizei/test.h:39:1: error: expected specifier-qualifier-list before ‘)’ token
+ )
+ ^
+./haizei/test.h:43:31: note: in expansion of macro ‘TYPE’
+     sprintf(frm, color("%s"), TYPE(a));\
+                               ^~~~
+./haizei/test.h:57:9: note: in expansion of macro ‘P’
+         P(" vs ", YELLOW_HL);\
+         ^
+./haizei/test.h:65:25: note: in expansion of macro ‘EXPECT’
+ #define EXPECT_EQ(a, b) EXPECT(a, b, ==)
+                         ^~~~~~
+main.c:23:5: note: in expansion of macro ‘EXPECT_EQ’
+     EXPECT_EQ(add(5,6), 10);
+     ^~~~~~~~~
+./haizei/test.h:39:1: error: expected specifier-qualifier-list before ‘)’ token
+ )
+ ^
+./haizei/test.h:43:31: note: in expansion of macro ‘TYPE’
+     sprintf(frm, color("%s"), TYPE(a));\
+                               ^~~~
+./haizei/test.h:58:9: note: in expansion of macro ‘P’
+         P(_b, YELLOW_HL);\
+         ^
+./haizei/test.h:65:25: note: in expansion of macro ‘EXPECT’
+ #define EXPECT_EQ(a, b) EXPECT(a, b, ==)
+                         ^~~~~~
+main.c:23:5: note: in expansion of macro ‘EXPECT_EQ’
+     EXPECT_EQ(add(5,6), 10);
+     ^~~~~~~~~
+./haizei/test.h:39:1: error: expected specifier-qualifier-list before ‘)’ token
+ )
+ ^
+./haizei/test.h:43:31: note: in expansion of macro ‘TYPE’
+     sprintf(frm, color("%s"), TYPE(a));\
+                               ^~~~
+./haizei/test.h:56:9: note: in expansion of macro ‘P’
+         P(_a, YELLOW_HL);\
+         ^
+./haizei/test.h:67:25: note: in expansion of macro ‘EXPECT’
+ #define EXPECT_GT(a, b) EXPECT(a, b, >)
+                         ^~~~~~
+main.c:24:5: note: in expansion of macro ‘EXPECT_GT’
+     EXPECT_GT(add(5,6), 9);
+     ^~~~~~~~~
+./haizei/test.h:39:1: error: expected specifier-qualifier-list before ‘)’ token
+ )
+ ^
+./haizei/test.h:43:31: note: in expansion of macro ‘TYPE’
+     sprintf(frm, color("%s"), TYPE(a));\
+                               ^~~~
+./haizei/test.h:57:9: note: in expansion of macro ‘P’
+         P(" vs ", YELLOW_HL);\
+         ^
+./haizei/test.h:67:25: note: in expansion of macro ‘EXPECT’
+ #define EXPECT_GT(a, b) EXPECT(a, b, >)
+                         ^~~~~~
+main.c:24:5: note: in expansion of macro ‘EXPECT_GT’
+     EXPECT_GT(add(5,6), 9);
+     ^~~~~~~~~
+./haizei/test.h:39:1: error: expected specifier-qualifier-list before ‘)’ token
+ )
+ ^
+./haizei/test.h:43:31: note: in expansion of macro ‘TYPE’
+     sprintf(frm, color("%s"), TYPE(a));\
+                               ^~~~
+./haizei/test.h:58:9: note: in expansion of macro ‘P’
+         P(_b, YELLOW_HL);\
+         ^
+./haizei/test.h:67:25: note: in expansion of macro ‘EXPECT’
+ #define EXPECT_GT(a, b) EXPECT(a, b, >)
+                         ^~~~~~
+main.c:24:5: note: in expansion of macro ‘EXPECT_GT’
+     EXPECT_GT(add(5,6), 9);
+     ^~~~~~~~~
+./haizei/test.h:39:1: error: expected specifier-qualifier-list before ‘)’ token
+ )
+ ^
+./haizei/test.h:43:31: note: in expansion of macro ‘TYPE’
+     sprintf(frm, color("%s"), TYPE(a));\
+                               ^~~~
+./haizei/test.h:56:9: note: in expansion of macro ‘P’
+         P(_a, YELLOW_HL);\
+         ^
+./haizei/test.h:69:25: note: in expansion of macro ‘EXPECT’
+ #define EXPECT_GE(a, b) EXPECT(a, b, >=)
+                         ^~~~~~
+main.c:25:5: note: in expansion of macro ‘EXPECT_GE’
+     EXPECT_GE(add(4,8), 20);
+     ^~~~~~~~~
+./haizei/test.h:39:1: error: expected specifier-qualifier-list before ‘)’ token
+ )
+ ^
+./haizei/test.h:43:31: note: in expansion of macro ‘TYPE’
+     sprintf(frm, color("%s"), TYPE(a));\
+                               ^~~~
+./haizei/test.h:57:9: note: in expansion of macro ‘P’
+         P(" vs ", YELLOW_HL);\
+         ^
+./haizei/test.h:69:25: note: in expansion of macro ‘EXPECT’
+ #define EXPECT_GE(a, b) EXPECT(a, b, >=)
+                         ^~~~~~
+main.c:25:5: note: in expansion of macro ‘EXPECT_GE’
+     EXPECT_GE(add(4,8), 20);
+     ^~~~~~~~~
+./haizei/test.h:39:1: error: expected specifier-qualifier-list before ‘)’ token
+ )
+ ^
+./haizei/test.h:43:31: note: in expansion of macro ‘TYPE’
+     sprintf(frm, color("%s"), TYPE(a));\
+                               ^~~~
+./haizei/test.h:58:9: note: in expansion of macro ‘P’
+         P(_b, YELLOW_HL);\
+         ^
+./haizei/test.h:69:25: note: in expansion of macro ‘EXPECT’
+ #define EXPECT_GE(a, b) EXPECT(a, b, >=)
+                         ^~~~~~
+main.c:25:5: note: in expansion of macro ‘EXPECT_GE’
+     EXPECT_GE(add(4,8), 20);
+     ^~~~~~~~~
+./haizei/test.h:39:1: error: expected specifier-qualifier-list before ‘)’ token
+ )
+ ^
+./haizei/test.h:43:31: note: in expansion of macro ‘TYPE’
+     sprintf(frm, color("%s"), TYPE(a));\
+                               ^~~~
+./haizei/test.h:56:9: note: in expansion of macro ‘P’
+         P(_a, YELLOW_HL);\
+         ^
+./haizei/test.h:65:25: note: in expansion of macro ‘EXPECT’
+ #define EXPECT_EQ(a, b) EXPECT(a, b, ==)
+                         ^~~~~~
+main.c:26:5: note: in expansion of macro ‘EXPECT_EQ’
+     EXPECT_EQ(add(5,6), 10);
+     ^~~~~~~~~
+./haizei/test.h:39:1: error: expected specifier-qualifier-list before ‘)’ token
+ )
+ ^
+./haizei/test.h:43:31: note: in expansion of macro ‘TYPE’
+     sprintf(frm, color("%s"), TYPE(a));\
+                               ^~~~
+./haizei/test.h:57:9: note: in expansion of macro ‘P’
+         P(" vs ", YELLOW_HL);\
+         ^
+./haizei/test.h:65:25: note: in expansion of macro ‘EXPECT’
+ #define EXPECT_EQ(a, b) EXPECT(a, b, ==)
+                         ^~~~~~
+main.c:26:5: note: in expansion of macro ‘EXPECT_EQ’
+     EXPECT_EQ(add(5,6), 10);
+     ^~~~~~~~~
+./haizei/test.h:39:1: error: expected specifier-qualifier-list before ‘)’ token
+ )
+ ^
+./haizei/test.h:43:31: note: in expansion of macro ‘TYPE’
+     sprintf(frm, color("%s"), TYPE(a));\
+                               ^~~~
+./haizei/test.h:58:9: note: in expansion of macro ‘P’
+         P(_b, YELLOW_HL);\
+         ^
+./haizei/test.h:65:25: note: in expansion of macro ‘EXPECT’
+ #define EXPECT_EQ(a, b) EXPECT(a, b, ==)
+                         ^~~~~~
+main.c:26:5: note: in expansion of macro ‘EXPECT_EQ’
+     EXPECT_EQ(add(5,6), 10);
+     ^~~~~~~~~
+main.c: In function ‘func_haizei_add3’:
+./haizei/test.h:39:1: error: expected specifier-qualifier-list before ‘)’ token
+ )
+ ^
+./haizei/test.h:43:31: note: in expansion of macro ‘TYPE’
+     sprintf(frm, color("%s"), TYPE(a));\
+                               ^~~~
+./haizei/test.h:56:9: note: in expansion of macro ‘P’
+         P(_a, YELLOW_HL);\
+         ^
+./haizei/test.h:65:25: note: in expansion of macro ‘EXPECT’
+ #define EXPECT_EQ(a, b) EXPECT(a, b, ==)
+                         ^~~~~~
+main.c:30:5: note: in expansion of macro ‘EXPECT_EQ’
+     EXPECT_EQ(add(5,6), 10);
+     ^~~~~~~~~
+./haizei/test.h:39:1: error: expected specifier-qualifier-list before ‘)’ token
+ )
+ ^
+./haizei/test.h:43:31: note: in expansion of macro ‘TYPE’
+     sprintf(frm, color("%s"), TYPE(a));\
+                               ^~~~
+./haizei/test.h:57:9: note: in expansion of macro ‘P’
+         P(" vs ", YELLOW_HL);\
+         ^
+./haizei/test.h:65:25: note: in expansion of macro ‘EXPECT’
+ #define EXPECT_EQ(a, b) EXPECT(a, b, ==)
+                         ^~~~~~
+main.c:30:5: note: in expansion of macro ‘EXPECT_EQ’
+     EXPECT_EQ(add(5,6), 10);
+     ^~~~~~~~~
+./haizei/test.h:39:1: error: expected specifier-qualifier-list before ‘)’ token
+ )
+ ^
+./haizei/test.h:43:31: note: in expansion of macro ‘TYPE’
+     sprintf(frm, color("%s"), TYPE(a));\
+                               ^~~~
+./haizei/test.h:58:9: note: in expansion of macro ‘P’
+         P(_b, YELLOW_HL);\
+         ^
+./haizei/test.h:65:25: note: in expansion of macro ‘EXPECT’
+ #define EXPECT_EQ(a, b) EXPECT(a, b, ==)
+                         ^~~~~~
+main.c:30:5: note: in expansion of macro ‘EXPECT_EQ’
+     EXPECT_EQ(add(5,6), 10);
+     ^~~~~~~~~
+./haizei/test.h:39:1: error: expected specifier-qualifier-list before ‘)’ token
+ )
+ ^
+./haizei/test.h:43:31: note: in expansion of macro ‘TYPE’
+     sprintf(frm, color("%s"), TYPE(a));\
+                               ^~~~
+./haizei/test.h:56:9: note: in expansion of macro ‘P’
+         P(_a, YELLOW_HL);\
+         ^
+./haizei/test.h:68:25: note: in expansion of macro ‘EXPECT’
+ #define EXPECT_LT(a, b) EXPECT(a, b, <)
+                         ^~~~~~
+main.c:31:5: note: in expansion of macro ‘EXPECT_LT’
+     EXPECT_LT(add(1,2), 0);
+     ^~~~~~~~~
+./haizei/test.h:39:1: error: expected specifier-qualifier-list before ‘)’ token
+ )
+ ^
+./haizei/test.h:43:31: note: in expansion of macro ‘TYPE’
+     sprintf(frm, color("%s"), TYPE(a));\
+                               ^~~~
+./haizei/test.h:57:9: note: in expansion of macro ‘P’
+         P(" vs ", YELLOW_HL);\
+         ^
+./haizei/test.h:68:25: note: in expansion of macro ‘EXPECT’
+ #define EXPECT_LT(a, b) EXPECT(a, b, <)
+                         ^~~~~~
+main.c:31:5: note: in expansion of macro ‘EXPECT_LT’
+     EXPECT_LT(add(1,2), 0);
+     ^~~~~~~~~
+./haizei/test.h:39:1: error: expected specifier-qualifier-list before ‘)’ token
+ )
+ ^
+./haizei/test.h:43:31: note: in expansion of macro ‘TYPE’
+     sprintf(frm, color("%s"), TYPE(a));\
+                               ^~~~
+./haizei/test.h:58:9: note: in expansion of macro ‘P’
+         P(_b, YELLOW_HL);\
+         ^
+./haizei/test.h:68:25: note: in expansion of macro ‘EXPECT’
+ #define EXPECT_LT(a, b) EXPECT(a, b, <)
+                         ^~~~~~
+main.c:31:5: note: in expansion of macro ‘EXPECT_LT’
+     EXPECT_LT(add(1,2), 0);
+     ^~~~~~~~~
+./haizei/test.h:39:1: error: expected specifier-qualifier-list before ‘)’ token
+ )
+ ^
+./haizei/test.h:43:31: note: in expansion of macro ‘TYPE’
+     sprintf(frm, color("%s"), TYPE(a));\
+                               ^~~~
+./haizei/test.h:56:9: note: in expansion of macro ‘P’
+         P(_a, YELLOW_HL);\
+         ^
+./haizei/test.h:66:25: note: in expansion of macro ‘EXPECT’
+ #define EXPECT_NE(a, b) EXPECT(a, b, !=)
+                         ^~~~~~
+main.c:32:5: note: in expansion of macro ‘EXPECT_NE’
+     EXPECT_NE(add(1,2), -1);
+     ^~~~~~~~~
+./haizei/test.h:39:1: error: expected specifier-qualifier-list before ‘)’ token
+ )
+ ^
+./haizei/test.h:43:31: note: in expansion of macro ‘TYPE’
+     sprintf(frm, color("%s"), TYPE(a));\
+                               ^~~~
+./haizei/test.h:57:9: note: in expansion of macro ‘P’
+         P(" vs ", YELLOW_HL);\
+         ^
+./haizei/test.h:66:25: note: in expansion of macro ‘EXPECT’
+ #define EXPECT_NE(a, b) EXPECT(a, b, !=)
+                         ^~~~~~
+main.c:32:5: note: in expansion of macro ‘EXPECT_NE’
+     EXPECT_NE(add(1,2), -1);
+     ^~~~~~~~~
+./haizei/test.h:39:1: error: expected specifier-qualifier-list before ‘)’ token
+ )
+ ^
+./haizei/test.h:43:31: note: in expansion of macro ‘TYPE’
+     sprintf(frm, color("%s"), TYPE(a));\
+                               ^~~~
+./haizei/test.h:58:9: note: in expansion of macro ‘P’
+         P(_b, YELLOW_HL);\
+         ^
+./haizei/test.h:66:25: note: in expansion of macro ‘EXPECT’
+ #define EXPECT_NE(a, b) EXPECT(a, b, !=)
+                         ^~~~~~
+main.c:32:5: note: in expansion of macro ‘EXPECT_NE’
+     EXPECT_NE(add(1,2), -1);
+     ^~~~~~~~~
+./haizei/test.h:39:1: error: expected specifier-qualifier-list before ‘)’ token
+ )
+ ^
+./haizei/test.h:43:31: note: in expansion of macro ‘TYPE’
+     sprintf(frm, color("%s"), TYPE(a));\
+                               ^~~~
+./haizei/test.h:56:9: note: in expansion of macro ‘P’
+         P(_a, YELLOW_HL);\
+         ^
+./haizei/test.h:67:25: note: in expansion of macro ‘EXPECT’
+ #define EXPECT_GT(a, b) EXPECT(a, b, >)
+                         ^~~~~~
+main.c:33:5: note: in expansion of macro ‘EXPECT_GT’
+     EXPECT_GT(add(3,2), 0);
+     ^~~~~~~~~
+./haizei/test.h:39:1: error: expected specifier-qualifier-list before ‘)’ token
+ )
+ ^
+./haizei/test.h:43:31: note: in expansion of macro ‘TYPE’
+     sprintf(frm, color("%s"), TYPE(a));\
+                               ^~~~
+./haizei/test.h:57:9: note: in expansion of macro ‘P’
+         P(" vs ", YELLOW_HL);\
+         ^
+./haizei/test.h:67:25: note: in expansion of macro ‘EXPECT’
+ #define EXPECT_GT(a, b) EXPECT(a, b, >)
+                         ^~~~~~
+main.c:33:5: note: in expansion of macro ‘EXPECT_GT’
+     EXPECT_GT(add(3,2), 0);
+     ^~~~~~~~~
+./haizei/test.h:39:1: error: expected specifier-qualifier-list before ‘)’ token
+ )
+ ^
+./haizei/test.h:43:31: note: in expansion of macro ‘TYPE’
+     sprintf(frm, color("%s"), TYPE(a));\
+                               ^~~~
+./haizei/test.h:58:9: note: in expansion of macro ‘P’
+         P(_b, YELLOW_HL);\
+         ^
+./haizei/test.h:67:25: note: in expansion of macro ‘EXPECT’
+ #define EXPECT_GT(a, b) EXPECT(a, b, >)
+                         ^~~~~~
+main.c:33:5: note: in expansion of macro ‘EXPECT_GT’
+     EXPECT_GT(add(3,2), 0);
+     ^~~~~~~~~
+makefile:7: recipe for target 'main.o' failed
+make: *** [main.o] Error 1
