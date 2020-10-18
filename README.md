@@ -1,2 +1,2 @@
 # ztest
-A simple unit test framwork for C++
+A simple unit test framework for C++
